@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853731483697",
+    "project_id": "reservacionmesas",
+    "storage_bucket": "reservacionmesas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853731483697:android:b32fdd7ed6b637be843510",
+        "android_client_info": {
+          "package_name": "com.example.reservaciondemesas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853731483697-c5bg5vnqj4cpqtokefktau13seuel8as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJsgNY1ez13EC-7ikMKcOLm8jhpmGzxLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853731483697-c5bg5vnqj4cpqtokefktau13seuel8as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

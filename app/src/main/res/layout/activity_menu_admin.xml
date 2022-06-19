@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuAdmin">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="18dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/BtnLocal"
+            android:layout_width="199dp"
+            android:layout_height="match_parent"
+            android:text="Locales" />
+
+        <Button
+            android:id="@+id/BtnMesa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mesas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/BtnReservacion"
+            android:layout_width="199dp"
+            android:layout_height="match_parent"
+            android:text="Reservaciones" />
+
+        <Button
+            android:id="@+id/BtnUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Usuarios" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
